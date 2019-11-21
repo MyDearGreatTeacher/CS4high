@@ -347,7 +347,7 @@ https://en.wikipedia.org/wiki/User_Datagram_Protocol
 ```
 ### UDP Format
 
-
+![UDP header format](udp_header.gif)
 ```
 UDP報頭包括4個欄位，每個欄位占用2個位元組（即16個位元）。
 在IPv4中，「來源連接埠」和「校驗和」是可選欄位（以粉色背景標出）。
@@ -375,7 +375,7 @@ UDP不需要應答，所以來源埠是可選的，如果來源埠不用，那�
 如果不使用校驗和，該欄位應被填充為全0。
 ```
 ## TCP
-![TCP ](tcp_header.gif)
+![TCP header format](tcp_header.gif)
 
 # Application 層常用協定
 ### SSL, TLS, HTTP, HTTPS 

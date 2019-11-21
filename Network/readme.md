@@ -224,7 +224,7 @@ tracert www.pchome.com.tw
 ```
 作業:tracert www.ksu.edu.tw
 ```
-### Transport層協定:TCP(可靠的reliable) vs UDP (不可靠的unreliable)
+# Transport層協定:TCP(可靠的reliable) vs UDP (不可靠的unreliable)
 ```
 何謂(可靠的reliable) vs (不可靠的unreliable)?
 都(不可靠的unreliable)了,為何要用??

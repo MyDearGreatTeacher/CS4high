@@ -90,12 +90,31 @@ IEEE 802.21：媒介獨立換手（Media Independent Handover）
 IEEE 802.22：無線區域網（Wireless Regional Area Network）
 IEEE 802.23：緊急服務工作群組（Emergency Services Working Group），2010年3月新發布
 ```
+# TCP/IP協定
+
+
+# 網際層（Internet Layer）[OSI 參考模式的網路層]協定:
+```
+● IP（Internet Protocol）：網際通訊協定。
+● ARP（Address Resolution Protocol）：位址解析協定。
+● RARP（Reverse Address Resolution Protocol）：反向位址解析協定。
+```
 ### ARP
 ```
 Address Resolution Protocol (ARP) - Explained with example | Computer network | TechTerms
 https://www.youtube.com/watch?v=EC1slXCT3bg
 
 MAC Address
+
+位址解析協定（Address Resolution Protocol, ARP）來查問欲傳送之目的主機的MAC位址==已知的 IP 位址查問其相對應的網路實體位
+反向位址解析協定（Reverse Address Resolution Protocol, RARP）。由已知的網路實體位址查詢其相對應的 IP 位址
+```
+```
+arp -a
+```
+### IP
+```
+
 ```
 ### ICMP
 ```
@@ -205,13 +224,18 @@ tracert www.pchome.com.tw
 ```
 作業:tracert www.ksu.edu.tw
 ```
-### TCP vs UDP 
+### Transport層協定:TCP(可靠的reliable) vs UDP (不可靠的unreliable)
+```
+何謂(可靠的reliable) vs (不可靠的unreliable)?
+都(不可靠的unreliable)了,為何要用??
+如何達到(可靠的reliable)?<----封包格式的設計
+```
 ```
 TCP vs UDP Comparison
 https://www.youtube.com/watch?v=uwoD5YsGACg
 ```
 
-
+# Application 層常用協定
 ### SSL, TLS, HTTP, HTTPS 
 ```
 SSL, TLS, HTTP, HTTPS Explained

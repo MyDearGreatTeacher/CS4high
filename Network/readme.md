@@ -2,6 +2,7 @@
 
 ![OSI Model 與網路設備](OSI_1.png)
 
+![OSI Model 與TCP/IP](OSI_TCP_IP.png)
 
 ```
 Markdown文件

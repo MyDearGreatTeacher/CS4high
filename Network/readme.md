@@ -1,4 +1,8 @@
-#
+# OSI Model
+
+![OSI Model 與網路設備](OSI_1.png)
+
+
 ```
 Markdown文件
 https://markdown.tw/

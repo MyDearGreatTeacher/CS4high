@@ -1,10 +1,17 @@
+# WHY?
+
+![為什麼要分層](為什麼要分層.png)
+
 # OSI Model
 
 ![OSI Model 與網路設備](OSI_1.png)
 
+#
+
 ![OSI Model 與TCP/IP](OSI_TCP_IP.png)
 
 
+#
 ![TCP_IP常用協定](TCP_IP常用協定.png)
 
 ```

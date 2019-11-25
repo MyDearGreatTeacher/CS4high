@@ -4,6 +4,9 @@
 
 ![OSI Model 與TCP/IP](OSI_TCP_IP.png)
 
+
+![TCP_IP常用協定](TCP_IP常用協定.png)
+
 ```
 Markdown文件
 https://markdown.tw/

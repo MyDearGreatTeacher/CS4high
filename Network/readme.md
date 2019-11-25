@@ -2,6 +2,10 @@
 
 ![為什麼要分層](為什麼要分層.png)
 
+# OSI Model的功能
+
+![OSI_功能](OSI_功能.png)
+
 # OSI Model
 
 ![OSI Model 與網路設備](OSI_1.png)

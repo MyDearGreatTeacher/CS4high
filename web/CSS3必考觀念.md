@@ -142,17 +142,94 @@ We are still in the div element.
 ```
 ### Four
 ```
-
+https://www.w3schools.com/css/tryit.asp?filename=trycss_icons_fa
 ```
 ```
+無需下載，快速套用小圖案
+```
+```
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
 
+<i class="fas fa-cloud"></i>
+<i class="fas fa-heart"></i>
+<i class="fas fa-car"></i>
+<i class="fas fa-file"></i>
+<i class="fas fa-bars"></i>
+
+</body>
+</html>
 ```
 ### Five
 ```
-
+https://www.w3schools.com/css/tryit.asp?filename=trycss_link
 ```
 ```
+/* 尚未按下的連結樣式 */
+a:link {
+  color: red;
+}
 
+/* 按下後的連結樣式 */
+a:visited {
+  color: green;
+}
+
+/* 滑鼠移過的連結樣式 */
+a:hover {
+  color: hotpink;
+}
+
+/* 選中時的連結樣式 */
+a:active {
+  color: blue;
+}
+```
+```
+CSS也有[超連結]，系分為以下四種：
+1. a:link - 尚未按下的連結樣式
+2. a:visited - 按下後的連結樣式
+3. a:hover - 滑鼠移過的連結樣式
+4. a:active - 選中時的連結樣式
+```
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+
+</body>
+</html>
 ```
 ### Six
 ```

@@ -34,6 +34,7 @@ p {
   color: red;
   text-align: center;
 }
+
 所有<p>元素的字體將呈現為紅色並且置中對齊
 ```
 ```
@@ -56,21 +57,70 @@ p {
 </html>
 ```
 
-###
+### Two
 ```
+https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax_id
+```
+```
+#x1 {
+  text-align: center;
+  color: red;
+}
 
+id是x1的元素字體將呈現為紅色並且置中對齊
 ```
 ```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#x1 {
+  text-align: center;
+  color: red;
+}
+</style>
+</head>
+<body>
 
-```
-###
-```
+<p id="x1">Hello World!</p>
+<p>This paragraph is not affected by the style.</p>
 
+</body>
+</html>
 ```
+### Three
 ```
+https://www.w3schools.com/css/tryit.asp?filename=trycss_howto_external
+```
+##### text.css
+```
+body {
+  background-color: lightblue;
+}
 
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
 ```
-###
+```
+使用外部的CSS標籤，需再head中以link定義
+```
+```
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="test.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+```
+### Four
 ```
 
 ```

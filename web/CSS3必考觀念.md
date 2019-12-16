@@ -25,12 +25,35 @@ p {color:blue;}
 </html>
 ```
 # CSS3十大必考標籤
-###
+### One
 ```
+https://www.w3schools.com/css/tryit.asp?filename=trycss_syntax1
+```
+```
+p {
+  color: red;
+  text-align: center;
+}
+所有<p>元素的字體將呈現為紅色並且置中對齊
+```
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  color: red;
+  text-align: center;
+} 
+</style>
+</head>
+<body>
 
-```
-```
+<p>Hello World!</p>
+<p>These paragraphs are styled with CSS.</p>
 
+</body>
+</html>
 ```
 
 ###

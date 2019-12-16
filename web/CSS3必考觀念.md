@@ -104,7 +104,7 @@ h1 {
 }
 ```
 ```
-使用外部的CSS標籤，需再head中以link定義
+使用外部的CSS標籤(test.css)，需再head中以link定義
 ```
 ```
 <!DOCTYPE html>

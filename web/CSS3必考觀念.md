@@ -90,32 +90,48 @@ id是x1的元素字體將呈現為紅色並且置中對齊
 ```
 ### Three
 ```
-https://www.w3schools.com/css/tryit.asp?filename=trycss_howto_external
+https://www.w3schools.com/css/tryit.asp?filename=trycss_background-color_elements
 ```
-##### text.css
 ```
-body {
+h1 {
+  background-color: green;
+}
+
+div {
   background-color: lightblue;
 }
 
-h1 {
-  color: navy;
-  margin-left: 20px;
+p {
+  background-color: yellow;
 }
-```
-```
-使用外部的CSS標籤(test.css)，需再head中以link定義
+h1、div、p元素有三種不同的顏色
 ```
 ```
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="test.css">
+<style>
+h1 {
+  background-color: green;
+}
+
+div {
+  background-color: lightblue;
+}
+
+p {
+  background-color: yellow;
+}
+</style>
 </head>
 <body>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+<h1>CSS background-color example!</h1>
+<div>
+This is a text inside a div element.
+<p>This paragraph has its own background color.</p>
+We are still in the div element.
+</div>
 
 </body>
 </html>

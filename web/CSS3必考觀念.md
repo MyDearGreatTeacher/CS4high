@@ -145,7 +145,7 @@ We are still in the div element.
 https://www.w3schools.com/css/tryit.asp?filename=trycss_icons_fa
 ```
 ```
-無需下載，快速套用小圖案
+無需下載，快速套用[小圖案]icon
 ```
 ```
 <!DOCTYPE html>
@@ -233,36 +233,249 @@ a:active {
 ```
 ### Six
 ```
-
+https://www.w3schools.com/css/tryit.asp?filename=trycss_list-style-type_ex
 ```
 ```
+清單式樣式，可分成許多階層、圖案、樣式
+```
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul.a {
+  list-style-type: circle;
+}
 
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+</style>
+</head>
+<body>
+
+<p>Example of unordered lists:</p>
+<ul class="a">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+
+<ul class="b">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+
+<p>Example of ordered lists:</p>
+<ol class="c">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+
+<ol class="d">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ol>
+
+</body>
+</html>
 ```
 ### Seven
 ```
-
+https://www.w3schools.com/css/tryit.asp?filename=trycss_table_color
 ```
 ```
+自訂表格內部樣式、框線、位置、顏色等等
+```
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>Colored Table Header</h2>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+    <td>$150</td>
+  </tr>
+  <tr>
+    <td>Joe</td>
+    <td>Swanson</td>
+    <td>$300</td>
+  </tr>
+  <tr>
+    <td>Cleveland</td>
+    <td>Brown</td>
+    <td>$250</td>
+</tr>
+</table>
+
+</body>
+</html>
 ```
 ### Eight
 ```
-
+https://www.w3schools.com/css/tryit.asp?filename=trycss_position_absolute
 ```
 ```
+設定元素出現的位置
+```
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+} 
 
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+</style>
+</head>
+<body>
+
+<h2>position: absolute;</h2>
+
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed):</p>
+
+<div class="relative">This div element has position: relative;
+  <div class="absolute">This div element has position: absolute;</div>
+</div>
+
+</body>
+</html>
 ```
 ### Nine
 ```
-
+https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_image
 ```
 ```
+圖片預覽功能，滑鼠移動到圖片上方，出現較大圖片
+```
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Dropdown Image</h2>
+<p>Move the mouse over the image below to open the dropdown content.</p>
+
+<div class="dropdown">
+  <img src="img_5terre.jpg" alt="Cinque Terre" width="100" height="50">
+  <div class="dropdown-content">
+  <img src="img_5terre.jpg" alt="Cinque Terre" width="300" height="200">
+  <div class="desc">Beautiful Cinque Terre</div>
+  </div>
+</div>
+
+</body>
+</html>
 ```
 ### Ten
 ```
-
+https://www.w3schools.com/css/tryit.asp?filename=trycss_image_opacity
 ```
 ```
+設定圖片透明度
+```
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+</style>
+</head>
+<body>
 
+<h1>Image Transparency</h1>
+<p>The opacity property specifies the transparency of an element. The lower the value, the more transparent:</p>
+
+<p>Image with 50% opacity:</p>
+<img src="img_forest.jpg" alt="Forest" width="170" height="100">
+
+</body>
+</html>
 ```

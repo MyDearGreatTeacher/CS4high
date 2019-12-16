@@ -20,8 +20,9 @@
        Python程式設計
        演算法
        系統開發
-
+       常用資訊系統
 模組五:新興科技
        雲端運算(Cloud Computing)
        物聯網(Internet of Things)
+       行動運算(mobile Computing)
 ```

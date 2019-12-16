@@ -1,6 +1,7 @@
 # Cascading Style Sheets
 ```
 階層式樣式表（CSS；又稱串樣式列表、級聯樣式表、串接樣式表、層疊樣式表）
+https://www.w3schools.com/css
 ```
 # CSS3 基本格式
 ```
@@ -104,6 +105,7 @@ div {
 p {
   background-color: yellow;
 }
+
 h1、div、p元素有三種不同的顏色
 ```
 ```

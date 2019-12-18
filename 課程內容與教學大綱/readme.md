@@ -9,7 +9,7 @@
     各種硬體設備==>ch3
     硬體內部架構|運算元件與文數字系統==>ch4
     儲存裝置（storage device）==>ch8
-    輸入（INput）與輸出（OUTput）==>ch9
+    輸入（INput）與輸出（OUTput）==>ch7
 
 模組二:計算機軟體
        系統軟體:作業系統 |公用程式==>ch6
